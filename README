@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
   Browser->>Server: new_note POST {note: "string"}
   Server->>Browser: notes GET
