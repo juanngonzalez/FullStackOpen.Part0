@@ -9,6 +9,16 @@ sequenceDiagram
   Server->>Browser: data.json GET
 ```
 
+## SPA
+
+```mermaid
+sequenceDiagram
+Server->>Browser: spa GET
+  Server->>Browser: main.css GET
+  Server->>Browser: spa.js GET
+  Server->>Browser: data.json GET
+```
+
 ## SPA & add note
 
 ```mermaid
