@@ -5,4 +5,4 @@ sequenceDiagram
   Server->>Browser: main.css GET
   Server->>Browser: main.js GET
   Server->>Browser: data.json GET
-```
+```mermaid
