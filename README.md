@@ -14,6 +14,6 @@ Server->>Browser: spa GET
   Server->>Browser: main.css GET
   Server->>Browser: spa.js GET
   Server->>Browser: data.json GET
-  Note right of Browser: Add note!
+  Note left of Browser: Add note!
   Browser->>Server: new_note_spa POST {"content": "notaa", "date": "2023-12-16T21:27:17.494Z"}
 ```
