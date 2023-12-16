@@ -1,3 +1,5 @@
+## Add note
+
 ```mermaid
 sequenceDiagram
   Browser->>Server: new_note POST {note: "string"}
@@ -7,6 +9,7 @@ sequenceDiagram
   Server->>Browser: data.json GET
 ```
 
+## SPA & add note
 
 ```mermaid
 sequenceDiagram
